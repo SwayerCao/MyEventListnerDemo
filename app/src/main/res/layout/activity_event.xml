@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EventActivity">
+
+
+        <com.example.myeventlistnerdemo.RollbackEvent.TestButton
+            android:id="@+id/btn_eve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click Me"
+            android:textAllCaps="false"
+            />
+        <!--android:onClick="show"-->
+
+        <!--自定义一个的Button-->
+        <com.example.myeventlistnerdemo.RollbackEvent.MyButton
+            android:id="@+id/btn_my"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="基于回调的事件处理机制"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
